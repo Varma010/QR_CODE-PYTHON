@@ -18,4 +18,38 @@ Here, the following contents will be described.
         Color: fill_color, back_color
     Embed the QR code into the image
     Embed the image into the QR code
+    
+    
+    
+# Requirements
+
+The pyqrcode module only requires Python 2.6, Python 2.7, or Python 3.
+You may want to install pypng in order to render PNG files, but it is optional. 
+Note, pypng is a pure python PNG writer which does not require any other library.
+
+$pip3 install pypng
+
+
+
+#Installation
+
+Installation is simple. It can be installed from pip using the following command:
+
+$ pip install pyqrcode
+
+Or from the terminal:
+
+$ python setup.py install
+
+
+#usage
+
+>>from pyqrcode import QRCode
+>>data=input("ENTER DATA HERE:")
+>>img=QRCode(data)
+>>img.png("filename.png",scale=1/2/3/4/5/6.....etc....)
+             (or)
+>>img.svg("fiename.svg",scale=1/2/3/12.........etc....)
+
+
 
