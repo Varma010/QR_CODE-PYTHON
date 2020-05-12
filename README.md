@@ -1,5 +1,5 @@
 # QR_CODE-PYTHON
-QRCODE GENARATOR AND READER WITH QRPYTHON AND CV2
+QRCODE GENARATOR AND READER WITH PYQRcode AND CV2
 ____________________________________________________
 Generate QR code image with Python, Pillow, qrcode
 ____________________________________________________
