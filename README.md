@@ -27,11 +27,11 @@ The pyqrcode module only requires Python 2.6, Python 2.7, or Python 3.
 You may want to install pypng in order to render PNG files, but it is optional. 
 Note, pypng is a pure python PNG writer which does not require any other library.
 
-$pip3 install pypng
+$ pip3 install pypng
 
+$ pip3 install pyzbar
 
-
-#Installation
+# Installation
 
 Installation is simple. It can be installed from pip using the following command:
 
@@ -40,16 +40,6 @@ $ pip install pyqrcode
 Or from the terminal:
 
 $ python setup.py install
-
-
-#usage
-
->>from pyqrcode import QRCode
->>data=input("ENTER DATA HERE:")
->>img=QRCode(data)
->>img.png("filename.png",scale=1/2/3/4/5/6.....etc....)
-             (or)
->>img.svg("fiename.svg",scale=1/2/3/12.........etc....)
 
 
 
